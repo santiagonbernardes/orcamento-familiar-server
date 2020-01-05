@@ -1,0 +1,7 @@
+import br.com.orcamentofamiliar.ItemDeOrcamento
+
+model {
+	ItemDeOrcamento itemDeOrcamento
+}
+
+json g.render(itemDeOrcamento, [resolveTemplate: false])

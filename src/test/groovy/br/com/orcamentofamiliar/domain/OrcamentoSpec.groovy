@@ -1,9 +1,10 @@
-package br.com.orcamentofamiliar
+package br.com.orcamentofamiliar.domain
 
+import br.com.orcamentofamiliar.Orcamento
 import grails.testing.gorm.DomainUnitTest
 import spock.lang.Specification
 
-class ItemDeOrcamentoSpec extends Specification implements DomainUnitTest<ItemDeOrcamento> {
+class OrcamentoSpec extends Specification implements DomainUnitTest<Orcamento> {
 
     def setup() {
     }

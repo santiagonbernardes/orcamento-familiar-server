@@ -1,0 +1,8 @@
+import br.com.orcamentofamiliar.ItemDeOrcamento
+
+model {
+	Iterable<ItemDeOrcamento> itemDeOrcamentoList
+}
+
+json tmpl.itemDeOrcamento(itemDeOrcamentoList ?: [])
+

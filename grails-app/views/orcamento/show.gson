@@ -1,0 +1,7 @@
+import br.com.orcamentofamiliar.Orcamento
+
+model {
+	Orcamento orcamento
+}
+
+json tmpl.orcamento(orcamento)

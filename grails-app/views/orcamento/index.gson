@@ -1,0 +1,8 @@
+import br.com.orcamentofamiliar.Orcamento
+
+model {
+	Iterable<Orcamento> orcamentoList
+}
+
+json tmpl.orcamento(orcamentoList ?: [])
+
